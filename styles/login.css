@@ -1,0 +1,35 @@
+@import url(./index.css);
+
+main {
+  background: url(../images/fundo.png);
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  width: 100vw;
+  height: 100vh;  
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-content{
+    border:#FFFFFF solid 1px;
+    width: 55%;
+    height: 70%; 
+
+    display: flex;
+}
+
+.login-logo{
+    background-color: var(--primary-background-color); 
+    width: 37%; 
+    height: 100%;
+}
+
+.login-form {
+    width: 63%;
+    height: 100%; 
+    background-color: transparent; 
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px); 
+}
